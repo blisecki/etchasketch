@@ -1,5 +1,19 @@
+.header {
+    text-align: center;
+}
+.container {
+    display: flex;
+    margin: auto;
+    width:700px;
+    height: 700px;
+}
+
 .box {
-    border: 3px solid black;
-    height: 50px;
-    width: 50px;
+    border: 1px solid black;
+    width: auto;
+    height: 25%;
+}
+
+.row {
+    flex: 1;
 }
