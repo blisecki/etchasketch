@@ -1,5 +1,6 @@
 .header {
     text-align: center;
+    padding: 2rem;
 }
 .container {
     display: flex;
@@ -12,6 +13,10 @@
     border: 1px solid black;
     width: auto;
     height: 25%;
+}
+
+.active {
+    background-color:cyan;
 }
 
 .row {
